@@ -51,5 +51,48 @@ Proyecto con Express.js, organizado siguiendo el patrón **MVC** + separaciones 
 
 ---
 
-Levantar servidor con comando en consola : >_ 
-```  npm run dev ``` 
+## ⚠️ Recomendaciones importantes antes de ejecutar
+
+1. **Renombrá el archivo** `.env.example` a `.env`
+   Esto es necesario para que las variables de entorno se carguen correctamente en tu aplicación.
+
+   ```bash
+   mv .env.example .env
+   ```
+
+2. **Instalá las dependencias** antes de correr el servidor:
+
+   ```bash
+   npm install
+   ```
+
+---
+
+## 🧪 Comandos disponibles
+
+```bash
+npm run dev     # Ejecuta el servidor con recarga automática
+npm start       # Ejecuta el servidor normalmente
+npm prettier    # Setea los archivos del Proyecto con Prettier
+```
+
+---
+
+## 📜 Licencia
+
+MIT License - © 2025 Dante Marcos Delprato
+¡Gracias por visitar este proyecto!
+
+---
+
+## 💬 ¿Dudas o sugerencias?
+
+Podés abrir un issue en el repositorio o contactarme por GitHub.
+
+https://github.com/YoElDante/express-pro-mvc
+
+😄 ¡Estoy feliz de compartir este generador con la comunidad!
+
+```
+
+```
